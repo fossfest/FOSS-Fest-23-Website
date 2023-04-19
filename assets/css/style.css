@@ -20937,41 +20937,11 @@ use.like-icon {
     text-align: center
 }
 
-.cert {
-    display: flex;
-    margin: auto;
-    padding: auto;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cert-1 {
-    display: flex;
-    padding: auto;
-    justify-content: space-around;
-}
 .sc {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.se {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-.se-0 {
-    display: flex;
-    align-items: center;
-}
-
-.se-1 {
-    display: flex;
-    align-items: center;
 }
 
 .center-content,.btn.icon-btn {
