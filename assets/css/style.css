@@ -21055,6 +21055,12 @@ use.like-icon {
     justify-content: space-around;
     align-items: center;
 }
+
+.cert-1 {
+    display: flex;
+    padding: auto;
+    justify-content: space-around;
+}
 .sc {
     display: flex;
     justify-content: center;
@@ -21068,6 +21074,17 @@ use.like-icon {
     align-items: center;
     text-align: center;
 }
+
+.se-0 {
+    display: flex;
+    align-items: center;
+}
+
+.se-1 {
+    display: flex;
+    align-items: center;
+}
+
 .center-content,.btn.icon-btn {
     display: flex;
     justify-content: center;
