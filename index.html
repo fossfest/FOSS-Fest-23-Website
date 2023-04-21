@@ -18,10 +18,6 @@
                 margin-top: 0;
             }
         </style>
-
-
-
-
     </head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9XHH2REJ5"></script>
@@ -94,7 +90,14 @@
                                             <!--<p class="hero-subtitle">27 May 2023</p>-->
                                             <p class="hero-subtitle">College Of Engineering Karunagappally, Kollam</p>
                                             <div>
-                                                <a class="btn btn-lg btn-primary" data-bs-toggle="tooltip" data-bss-tooltip="" rel="author" title="We will start the registration soon✅">Register</a>
+                                                <button class="btn btn-primary landing-btn btn-lg rounded"  onclick="showPopup()">Register</button>
+
+                                                <!-- The popup container -->
+                                                <div id="popup" class="popup">
+                                                    <p>We will start registrations soon</p>
+                                                    <button onclick="hidePopup()">Close</button>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -346,5 +349,15 @@
             </div>
         </section>
     </section>
+    <!-- Script to show and hide the popup -->
+    <script>
+        function showPopup() {
+          document.getElementById("popup").style.display = "block";
+        }
+  
+        function hidePopup() {
+          document.getElementById("popup").style.display = "none";
+        }
+    </script>
 </footer>
 </body></html>
