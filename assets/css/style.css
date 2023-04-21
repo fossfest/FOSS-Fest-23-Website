@@ -9,9 +9,15 @@
 }
 
 .small-img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.smaller-img{
+    width: 185px;
+    
 }
 
 .img-txt {
@@ -21,8 +27,38 @@
     font-size: 11px;
 }
 
+@media only screen and (max-width: 768px) {
+    .newcolor {
+        height: auto;
+    }
+    
+    .curved-box {
+        border-radius: 20px;
+    }
+    
+    .small-img {
+        max-width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .img-txt {
+        font-size: 10px;
+    }
+    
+    .row.d-flex.align-items-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .col-md-2 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
 .event-txt {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -31,45 +67,34 @@
 
 .event-box {
     background-color: #08B74F;
-    width: 182px;
+    width: 100%;
+    max-width: 182px;
     height: 102px;
-    margin-right: 100px;
-}
-
-.event-box2 {
-    background-color: #08B74F;
-    width: 182px;
-    height: 102px;
-    margin-right: 10px;
+    
+    display: inline-block;
+    vertical-align: top;
 }
 
 .event-container {
-    width: 1061px;
+    width: 100%;
+    max-width: 1061px;
+    margin: 0 auto;
 }
 
 .event-row{
-    height:102;
     margin-top: 31px;
+    margin-bottom: 40px;
 }
 
 .event-size {
-    display: contents;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 15px;
-
 }
 
 @media(max-width: 576px) {
-    .newcolor {
-        height: 678px;
-    }
-    .event-row {
-        height: 455px;
-    }
-    .event-box {
-        margin-left: 96px;
-    }
-    .event-box2 {
-        margin-left: 5px;
+    .event-size{
+        margin-top: 15px;
     }
 }
 
@@ -92,22 +117,76 @@
 }
 
 .fitcard{
-    width: 700px;
+    max-width: 100%;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
-.speaker-col{
-    
+.buttonfont {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.button-size{
+    width: 365px;
 }
 
 @media(max-width: 576px) {
-    .fitcard{
-        margin-left: 0px;
-        width: 353px;
+    .button-size{
+        margin-top: 27px;
+        width: 210px;
     }
-    .speaker-col{
-        width: 171px;
+    .smaller-img{
+        margin-top: 20px;
+        margin-left: -25px;
     }
+    .fstyle{
+        font-size: 29px;
+    }
+}
+
+.event-card-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #03C25A;
+}
+
+.event-card-p {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.event-card-bt {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.event-card-clr{
+    background: #1A1A1A;
+}
+
+
+@media(max-width: 576px) {
+    .event-card-width {
+        width: 100%;
+    }
+}
+
+.custom-margin{
+    margin-top: 33px;
+    margin-bottom: 120px;
 }
 
 .ql-container {
