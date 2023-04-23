@@ -1,4 +1,6 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap";
+
+
 .popup {
     position: fixed;
     top: 50%;
@@ -28,6 +30,14 @@
     height: 202px;
 }
 
+
+.newcolor1{
+    background-color: #08B74F;
+    margin-bottom: 122px;
+    height: 100%;
+}
+
+
 .curved-box {
     border-radius: 22px; /* Change this value to adjust the amount of curvature */
 }
@@ -55,7 +65,13 @@
     .newcolor {
         height: auto;
     }
-    
+
+    .newcolor1{
+        margin-bottom: 123px;
+        height: 120%;
+    }
+
+
     .curved-box {
         border-radius: 20px;
     }
