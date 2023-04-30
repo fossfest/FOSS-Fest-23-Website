@@ -198,10 +198,10 @@
 }
 
 .event-card-p {
-    font-family: 'JetBrains Mono';
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 15px;
     color: #FFFFFF;
 }
 
