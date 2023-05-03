@@ -171,6 +171,11 @@
     color: #FFFFFF;
 }
 
+a.buttonfont:hover {
+    color: #056e2f;
+    text-decoration: none;
+}
+
 .button-size{
     width: 365px;
 }
