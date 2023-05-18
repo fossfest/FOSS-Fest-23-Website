@@ -95,15 +95,14 @@
         flex-basis: 50%;
         max-width: 50%;
     }
+    
 }
 
 @media(max-width: 576px) {
     .event-size{
         margin-top: 15px;
     }
-    .mobb{
-        
-    }
+    
 }
 
 .event-txt {
