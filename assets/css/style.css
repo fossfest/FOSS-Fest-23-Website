@@ -97,6 +97,15 @@
     }
 }
 
+@media(max-width: 576px) {
+    .event-size{
+        margin-top: 15px;
+    }
+    .mobb{
+        
+    }
+}
+
 .event-txt {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -132,11 +141,6 @@
     padding: 0 15px;
 }
 
-@media(max-width: 576px) {
-    .event-size{
-        margin-top: 15px;
-    }
-}
 
 .fstyle{
     font-family: 'Inter';
