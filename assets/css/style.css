@@ -1,5 +1,9 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap";
 
+.custom-size {
+    width: 212px;
+    height: 386px;
+}
 
 .popup {
     position: fixed;
@@ -234,7 +238,7 @@ a.buttonfont:hover {
 
 .custom-margin{
     margin-top: 33px;
-    margin-bottom: 120px;
+    margin-bottom: 15px;
 }
 
 .ql-container {
